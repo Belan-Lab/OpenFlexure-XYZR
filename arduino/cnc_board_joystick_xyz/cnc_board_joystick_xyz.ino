@@ -21,14 +21,17 @@ int bSttLast = 0;
 int bPress = 0;
 
 // steppers set up
-#define X_STEP 5         // X-axis step pin  X-5, Y-6. Z-7 
 #define X_DIR 2          // X-axis dir pin   X-2, Y-3. Z-4 
+#define X_STEP 5         // X-axis step pin  X-5, Y-6. Z-7 
 
-#define Y_STEP 6         // Y-axis step pin  X-5, Y-6. Z-7 
+
 #define Y_DIR 3          // y-axis dir pin   X-2, Y-3. Z-4 
+#define Y_STEP 6         // Y-axis step pin  X-5, Y-6. Z-7 
 
-#define Z_STEP 7         // Z-axis step pin  X-5, Y-6. Z-7 
+
 #define Z_DIR 4          // z-axis dir pin   X-2, Y-3. Z-4 
+#define Z_STEP 7         // Z-axis step pin  X-5, Y-6. Z-7 
+
 
 #define MOTOR_EN 8       // drivers enable pin
 
